@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form - validação</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script src="form.js"></script>
+
+</head>
+
+<body>
+
+<form name="dados">
+
+    <div class="form-group"id="groupV1">
+        <label for="valor1" id="labelV1">Valor 1</label>
+        <input type="text" name="valor1" value="" class="form-control" id="valor1">
+        <div class="alert alert-danger" style= "display: none" id="alertaV1"> 
+        	<p>Informe o primeiro elemento corretamente! </p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="valor2"id="labelV2">Valor 2</label>
+        <input type="text" name="valor2" value="" class="form-control" id="valor2">
+        <div class="alert alert-danger" style= "display: none" id="alertaV2"> 
+        	<p>Informe o segundo elemento corretamente! </p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="resultado">Resultado</label>
+        <input type="text" name="resultado" value="" class="form-control" id="resultado">
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="calcular()">Calcular</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
